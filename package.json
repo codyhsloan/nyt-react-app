@@ -1,0 +1,39 @@
+{
+  "name": "nyt-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1",
+    "morgan": "^1.9.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyhsloan/nyt-react-app.git"
+  },
+  "author": "Cody Sloan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codyhsloan/nyt-react-app/issues"
+  },
+  "homepage": "https://github.com/codyhsloan/nyt-react-app#readme"
+}
